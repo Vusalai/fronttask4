@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    position:fixed;
+    padding:3rem;
+}
+.logo svg{
+    width:50%;
+    margin-right:2rem;
+}
+.navbar a{
+    margin-right:70px;
+    color:white;
+    font-size: 0.95rem;
+    padding-right:0.5rem;
+    padding-left: 0.5rem;
+    cursor:pointer;
+}
+#Slider{
+    background-image:url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-position:center;
+    text-align:center;
+    padding:17%;
+}
+.slider h3{
+    font-style:italic;
+    font-size:2.25rem;
+    margin-bottom:2rem;
+    color:white;
+}
+.slider h1{
+    color:white;
+    font-size:4.5rem;
+    font-weight:700;
+    margin-bottom:4rem;
+}
+.slider a{
+    color:white;
+    background-color:#ffc800;
+    border-color:#ffc800;
+    padding:1.25rem 2.25rem;
+    font-size:1.125rem;
+    font-weight:700;
+    border-radius:0.25rem;
+    border:1px solid transparent;
+    cursor:pointer;
+}
+#Slider2{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding:9rem;
+}
+.text h2{
+    font-size:2.5rem;
+    font-weight:700;
+    color:black;
+}
+.text h3{
+    font-size:1rem;
+    font-weight:400;
+    font-style:italic;
+    margin-bottom:4rem;
+    color:#6c757d;
+}
+.icons i{
+    background-color:#ffc800;
+    color:white;
+    border:27px transparent;
+    font-size:2rem;
+    padding:2.25rem 3.25rem;
+    border-color:#ffc800;
+    border-radius:37rem;
+}
+.icons h2{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-size:1.5rem;
+    font-weight:700;
+    line-height:1.2;
+}
+.icons h3{
+    color:#6c757d;
+    line-height:1.75;
+    margin-top:0;
+    margin-bottom:1rem;
+}
+.icons2 i{
+    background-color:#ffc800;
+    color:white;
+    border:27px transparent;
+    font-size:2rem;
+    padding:2.25rem 3.25rem;
+    border-color:#ffc800;
+    border-radius:37rem;
+}
+.icons2 h2{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-size:1.5rem;
+    font-weight:700;
+    line-height:1.2;
+}
+.icons2 h3{
+    color:#6c757d;
+    line-height:1.75;
+    margin-top:0;
+    margin-bottom:1rem;
+}
+.icons3 i{
+    background-color:#ffc800;
+    color:white;
+    border:27px transparent;
+    font-size:2rem;
+    padding:2.25rem 3.25rem;
+    border-color:#ffc800;
+    border-radius:37rem;
+}
+.icons3 h2{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    font-size:1.5rem;
+    font-weight:700;
+    line-height:1.2;
+}
+.icons3 h3{
+    color:#6c757d;
+    line-height:1.75;
+    margin-top:0;
+    margin-bottom:1rem;
+}
+#Slider3{
+    text-align:center;
+    background-color:beige;
+    margin-top:20px;
+}
+.text h2{
+   font-size:2.5rem;
+   margin-top:0;
+   margin-bottom:1rem;
+   font-weight:700;
+   color:black; 
+   margin-top:30px;
+}
+.text h3{
+    color:#6c757d;
+    font-size:1rem;
+    font-weight:400;
+    font-style:italic;
+    margin-bottom:4rem;
+}
+.boxes-all{
+    text-align: center;
+    margin:20px 1% ;
+    color: black;
+    background-color: beige;
+}
+.boxes2 img{
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    width:40%;
+}
+.boxes3 img{
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    width:40%;
+}
+.boxes4 img{
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    width:40%;
+}
+.boxes5 img{
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    width:40%;
+}
+.boxes6 img{
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    width:40%;
+}
+.boxes2 h2{
+
+}

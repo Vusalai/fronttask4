@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:fixed;
+    width:100%;
+}
+.logo img{
+    cursor:pointer;
+    width:160px;
+    text-align:left;
+}
+.navbar a{
+    margin-left:20px;
+    margin-right:20px;
+    color:white;
+}
+.navbar2 a{
+    color:white;
+    font-size:14px;
+    font-weight:normal;
+    letter-spacing:2px;
+    background-color: #ba71da;
+    padding:10px;
+    border-radius:30px;
+    margin-left:30px;
+}
+.navbar3 img{
+    width:25%;
+    text-align:right;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+#Slider{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg);
+    width:100%;
+    padding:290px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.slider-text h1{
+    color:white;
+    font-size:50px;
+    line-height:50px;
+    font-weight:bold;
+}
+.slider-text h6{
+    color:white;
+    font-size:20px;
+    line-height:20px;
+    letter-spacing:4px;
+    font-weight:normal;
+    margin:20px;
+}
+.slider-text input{
+    background-color: #f9f9f9;
+    border-width: 1px;
+    border-color: #f1f1f1;
+    border-style: solid;
+    color:#a3a3a3;
+    border-radius: 25px;
+    padding-right:25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    margin:15px;
+}
+.icons i{
+    margin:20px;
+    color:white;
+    font-size:37px;
+}
+#Slider2{
+    text-align:center;
+    margin:47px;
+}
+.text h3{
+    color:#9a9a9a;
+    font-size:14px;
+    line-height:14px;
+    letter-spacing:2px;
+    font-weight:normal;
+    margin-bottom:17px;
+}
+.text h2{
+    font-size:36px;
+    line-height:36px;
+    font-weight:bold;
+    color:#555555;
+}
+.europe{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/destination-9.jpg);
+    width:30%;
+    color:#a3a3a3;
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    float:left;
+}
+.europe img{
+    float:90px 90px 90px 90px;
+    width:35px;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+.europe h3{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    line-height:20px;
+}
+.europe p{
+    font-weight:normal;
+    letter-spacing:2px;
+    color:white;
+    font-size:13px;
+    line-height:13px;
+}
+.europe2{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/destination-5-720x720.jpg);
+    width:30%;
+    color:#a3a3a3;
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    float:left;
+}
+.europe2 img{
+    float:90px 90px 90px 90px;
+    width:35px;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+.europe2 h3{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    line-height:20px;
+}
+.europe2 p{
+    font-weight:normal;
+    letter-spacing:2px;
+    color:white;
+    font-size:13px;
+    line-height:13px;
+}
+.europe3{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-8.jpg);
+    width:30%;
+    color:#a3a3a3;
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    float:left;
+}
+.europe3 img{
+    float:90px 90px 90px 90px;
+    width:35px;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+.europe3 h3{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    line-height:20px;
+}
+.europe3 p{
+    font-weight:normal;
+    letter-spacing:2px;
+    color:white;
+    font-size:13px;
+    line-height:13px;
+}
+.europe4{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-10.jpg);
+    width:30%;
+    color:#a3a3a3;
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    float:left;
+}
+.europe4 img{
+    float:90px 90px 90px 90px;
+    width:35px;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+.europe4 h3{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    line-height:20px;
+}
+.europe4 p{
+    font-weight:normal;
+    letter-spacing:2px;
+    color:white;
+    font-size:13px;
+    line-height:13px;
+}
+.europe5{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-11.jpg);
+    width:30%;
+    color:#a3a3a3;
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    float:left;
+}
+.europe5 img{
+    float:90px 90px 90px 90px;
+    width:35px;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+.europe5 h3{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    line-height:20px;
+}
+.europe5 p{
+    font-weight:normal;
+    letter-spacing:2px;
+    color:white;
+    font-size:13px;
+    line-height:13px;
+}
+.europe6{
+    background-image:url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/03/destination-1-1-720x720.jpg);
+    width:30%;
+    color:#a3a3a3;
+    font-size:14px;
+    padding:150px;
+    background-position:center;
+    background-size:cover;
+    margin:27px 1%;
+    float:left;
+}
+.europe6 img{
+    float:90px 90px 90px 90px;
+    width:35px;
+    color:#a3a3a3;
+    font-size:14px;
+    line-height:27px;
+}
+.europe6 h3{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    line-height:20px;
+}
+.europe6 p{
+    font-weight:normal;
+    letter-spacing:2px;
+    color:white;
+    font-size:13px;
+    line-height:13px;
+}
+
+
